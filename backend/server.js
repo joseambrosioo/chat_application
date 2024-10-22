@@ -13,19 +13,6 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-// without using middleware
-// app.get("/api/auth/sigup", (req, res) => {
-//   console.log("signup route");
-// });
-
-// app.get("/api/auth/login", (req, res) => {
-//   console.log("login route");
-// });
-// ``;
-// app.get("/api/auth/logout", (req, res) => {
-//   console.log("logout route");
-// });
-
 // using middleware
 app.use("/api/auth", authRoutes);
 
