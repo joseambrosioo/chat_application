@@ -49,7 +49,7 @@ const useSignup = () => {
         throw new Error(data.error);
       }
       // localStorage
-      localStorage.getItem("chat-user", JSON.stringify(data));
+      localStorage.setItem("chat-user", JSON.stringify(data));
       // context
       setAuthUser(data);
     } catch (error) {
