@@ -12,10 +12,18 @@ function App() {
   return (
     <div className="p-4 h-screen flex items-center justify-center">
       {/* <Home /> */}
+      {/* <Route path="/" element={<Home />} /> */}
+      {/* <Route path="/login" element={<Login />} /> */}
+      {/* <Route path="/signup" element={<SignUp />} /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        {/* <Route path="/signup" element={<SignUp />} /> */}
+        <Route
+          path="/"
+          element={authUser ? <Navigate to={"/login"} /> : <Home />}
+        />
+        <Route
+          path="/login"
+          element={authUser ? <Navigate to="/" /> : <Login />}
+        />
         <Route
           path="/signup"
           element={authUser ? <Navigate to="/" /> : <SignUp />}
