@@ -35,8 +35,8 @@ const SignUp = () => {
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
       <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
         {/* <div className="w-full p-6 rounded-lg shadow-md bg-white bg-clip-padding backdrop-filter"> */}
-        <h1 className="text-3xl font-semibold text-center text-gray-300">
-          <span className="text-blue-500"> Chat Application</span>
+        <h1 className="text-3xl font-semibold text-center text-gray-400">
+          <span className="text-black"> Chat Application</span>
           <br />
           Sign Up
         </h1>
@@ -48,7 +48,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
-              placeholder="Jose Ambrosio"
+              placeholder="Enter Full Name"
               className="w-full input input-bordered  h-10"
               value={inputs.fullName}
               onChange={(e) =>
@@ -63,7 +63,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
-              placeholder="joseambrosio"
+              placeholder="Enter Username"
               className="w-full input input-bordered h-10"
               value={inputs.username}
               onChange={(e) =>
