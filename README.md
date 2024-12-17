@@ -1,5 +1,3 @@
-# csci897_project_fhsu_f2024
-
 # Chat Web Application
 
 ## Project Overview
