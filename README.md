@@ -13,12 +13,11 @@ Chat Web App is a full-stack MERN platform enabling users to authenticate and ch
 
 ## Tech Stack (JavaScript)
 
-
-- **Backend:** JavaScript, Express.js, Node.js, JSON Web Token (JWT), Socket.io, RESTFUL APIs
+- **Backend:** JavaScript, Express.js, Node.js, JSON Web Token (JWT), Socket.io, RESTful APIs
 - **Frontend:** JavaScript, React.js
 - **Database (Cloud):** MongoDB Atlas (NoSQL)
 - **Payment:** PayPal REST API
-- **Web App Cloud Hosting Provider:** Render.com
+- **Web App Cloud Hosting Provider:** Render
 
 ## Resources
 
