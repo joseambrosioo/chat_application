@@ -29,7 +29,7 @@ const MessageInput = () => {
           {loading ? (
             <div className="loading loading-spinner"></div>
           ) : (
-            <BsSend />
+            <BsSend className="text-black" />
           )}
         </button>
       </div>
