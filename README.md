@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Chat Web Application is built with JavaScript, React.js, Express.js, Node.js, and MongoDB. The platform allows users to authenticate and chat with other users.
+Chat Web App is a full-stack MERN platform enabling users to authenticate and chat with others.
 
 ## Features
 
@@ -13,9 +13,12 @@ Chat Web Application is built with JavaScript, React.js, Express.js, Node.js, an
 
 ## Tech Stack (JavaScript)
 
-- **Frontend**: React.js
-- **Backend**: Node.js with Express.js
-- **Database**: MongoDB (NoSQL)
+
+- **Backend:** JavaScript, Express.js, Node.js, JSON Web Token (JWT), Socket.io, RESTFUL APIs
+- **Frontend:** JavaScript, React.js
+- **Database (Cloud):** MongoDB Atlas (NoSQL)
+- **Payment:** PayPal REST API
+- **Web App Cloud Hosting Provider:** Render.com
 
 ## Resources
 
