@@ -9,7 +9,7 @@ const Home = () => {
     //   <MessageContainer />
     // </div>
     <div className="flex flex-col sm:flex-row sm:h-auto md:h-[550px] rounded-lg overflow-hidden">
-      <Sidebar className="w-full sm:w-[200px] md:w-[250px] sm:border-0 border" />
+      <Sidebar className="w-full sm:w-[200px] md:w-[250px]" />
       <MessageContainer className="w-full sm:flex-1 md:w-[calc(100%-250px)]" />
     </div>
   );
