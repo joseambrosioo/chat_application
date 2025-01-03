@@ -4,6 +4,10 @@
 
 Chat Web App is a full-stack MERN platform enabling users to authenticate and chat with others.
 
+## User Access
+
+- **Home Page:** https://chat-web-app-up3g.onrender.com
+
 ## Features
 
 - **User Registration and Login**: Create accounts and log in securely.
