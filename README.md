@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Chat Web App is a full-stack MERN platform enabling users to authenticate and chat with others.
+Chat Web App is a full-stack MERN platform that allows users to authenticate and chat with others.
 
 ## User Access
 
