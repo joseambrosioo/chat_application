@@ -23,6 +23,16 @@ const Login = () => {
           Login
         </h1>
 
+        <p className="mt-4">
+          Use the following credentials to log in as a test user:
+        </p>
+        <p className="mt-2">
+          Email: jane
+        </p>
+        <p className="mt-2">
+          Password: admin123
+        </p>
+
         <form onSubmit={handleSubmit}>
           <div>
             <label className="label p-2">
